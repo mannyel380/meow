@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Date Proposal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1 id="question">Will you go out with me? ❤️</h1>
+    <div id="buttons">
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
+    </div>
+
+    <div id="followUp" class="hidden">
+      <h2>What kind of date would you like?</h2>
+      <div class="options">
+        <button class="dateOption">Coffee Date ☕</button>
+        <button class="dateOption">Art Gallery 🎨</button>
+        <button class="dateOption">Nature Trip 🌿</button>
+        <button class="dateOption">Museum Date 🏛️</button>
+      </div>
+    </div>
+
+    <div id="schedule" class="hidden">
+      <h2>When would you like to go?</h2>
+      <input type="datetime-local" id="dateInput"/>
+      <button id="confirmDate">Confirm</button>
+    </div>
+
+    <div id="finalMessage" class="hidden">
+      <h2>Yay! I'm so excited! 🎉💖</h2>
+      <canvas id="confettiCanvas"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
